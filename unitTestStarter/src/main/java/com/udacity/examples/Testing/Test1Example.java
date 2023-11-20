@@ -1,4 +1,4 @@
-package com.udacity.examples.Testing;
+package src.main.java.com.udacity.examples.Testing;
 import java.util.Arrays;
 import java.util.IntSummaryStatistics;
 import java.util.List;
@@ -20,20 +20,20 @@ public class Test1Example {
 			
 	      System.out.println("List: " + empNames);
 			
-	      long count = Helper.getCount(empNames) ;
+	      long count = com.udacity.examples.Testing.Helper.getCount(empNames) ;
 	      
 	      System.out.println("Empty Strings: " + count);
 			
-	      count = Helper.getCount(empNames);
+	      count = com.udacity.examples.Testing.Helper.getCount(empNames);
 	      System.out.println("Strings of length 3: " + count);
 			
-	      List<String> filtered = Helper.getFilteredList(empNames);
+	      List<String> filtered = com.udacity.examples.Testing.Helper.getFilteredList(empNames);
 	      System.out.println("Filtered List: " + filtered);
 			
-	      String mergedString = Helper.getMergedList(empNames);
+	      String mergedString = com.udacity.examples.Testing.Helper.getMergedList(empNames);
 	      System.out.println("Merged String: " + mergedString);
 			
-	      List<Integer> squaresList = Helper.getSquareList(empLevel);
+	      List<Integer> squaresList = com.udacity.examples.Testing.Helper.getSquareList(empLevel);
 	      System.out.println("Squares List: " + squaresList);
 			
 	      IntSummaryStatistics stats = yrsOfExperience.stream().mapToInt((x) ->x).summaryStatistics();
