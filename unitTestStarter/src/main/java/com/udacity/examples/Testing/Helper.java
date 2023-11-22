@@ -1,4 +1,4 @@
-package com.udacity.examples.Testing;
+package src.main.java.com.udacity.examples.Testing;
 
 import java.util.IntSummaryStatistics;
 import java.util.List;
@@ -12,7 +12,7 @@ public class Helper {
 	    * @return
 	    */
 		public static long getCount(List<String> strings){
-			return strings.stream().filter(string->string.isEmpty()).count();
+			return strings.stream().filter(string->!string.isEmpty()).count();
 		}
 		
 		/**

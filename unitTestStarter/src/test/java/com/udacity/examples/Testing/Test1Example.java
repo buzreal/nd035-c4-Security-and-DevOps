@@ -1,4 +1,4 @@
-package com.udacity.examples.Testing;
+package src.test.java.com.udacity.examples.Testing;
 
 import junit.framework.TestCase;
 
